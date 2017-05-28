@@ -9,7 +9,12 @@ body {
 	width: 14.28%;
 	float: left;
 }
+#content
+{
+	height: 50vw;
+	padding-top: 50px;
 
+}
 .center {
 	padding-left: 0;
 	padding-right: 0;
@@ -28,14 +33,23 @@ body {
 }
 
 img {
-	/*height: 100%;*/
-	display: block;
-	/*width: auto;*/
+	width: 100%;
+	height: auto;
+	max-height: 100%;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
 }
-
+@media only screen and (max-width: 991px) {
+img
+{
+height: 100% !important ;
+width: auto;
+max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+}
 .sto {
 	height: 100%;
 	/*display: flex;*/
@@ -62,7 +76,7 @@ img {
 	height: 100%;
 	margin-right: auto;
 	margin-left: auto;
-}
+	}
 
 .litera {
 	min-width: 10px;
@@ -78,6 +92,8 @@ img {
 	text-align: center;
 	line-height: 30px;
 	background-color: #212121;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .litera:hover {

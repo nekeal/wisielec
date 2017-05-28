@@ -35,10 +35,13 @@ $(function () {
     }
 
     function loadImage(ile) {
-        for (i = 0; i < ile; i++) {
+        for (i = 0; i <= ile; i++) {
             images[i] = new Image();
             images[i].src='img/s'+i+".jpg";
-            images[i].alt="Something went wrong"
+            images[i].alt="Something went wrong";
+            images[i].className="img img-responsive";
+            console.log(images[i]);
+
         }
     }
 
@@ -83,6 +86,7 @@ $(function () {
             $(this).addClass("clicked-wrong");
 
             id++;
+            image(id);
             if (id == 9) {
                 $("#litery").html("<button id='retry' class='btn btn-lg btn-info' type='button'>Spróbuj jeszcze raz!</button>");
                 $("#litery").prepend("Niestety nie udało się, zostałeś powieszony</br>");
@@ -91,7 +95,6 @@ $(function () {
                     location.reload();
                 });
             }
-            image(id);
 
         }
     });
