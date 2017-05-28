@@ -16,16 +16,17 @@ $(function () {
     }
 
     function wypiszLitery() {
+        var lit="";
         var pojemnik = $('#litery');
         for (i = 0; i < 35; i++) {
-            pojemnik.append('<div class="litera">' + litery[i] + "</div>")
+            lit.append('<div class="litera">' + litery[i] + "</div>")
             if (i > 0 && (i + 1) % 7 == 0)
-                pojemnik.append('<div style="clear:both;"</div>');
+                pojemnik.append('<div class="row"</div>');
         }
     }
 
     function image(id) {
-        $("#szubienica").html("<img src=img/s" + id + ".jpg alt=''>");
+        $("#szubienica").html("<img class='img img-responsive' src=img/s" + id + ".jpg alt=''>");
     }
     String.prototype.replaceAt = function (a, b) {
         return this.substr(0, a) + b + this.substr(a + 1);

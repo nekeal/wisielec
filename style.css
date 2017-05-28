@@ -15,26 +15,23 @@ img
 {
 	height: 100%;
 	width: auto;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 }
-#container
-{
-	margin-top: 100px;
-	height: 400px;
-}
+
 #litery
 {
-	float: left;
-	margin-left: 100px;
-	margin-right: 0;
-	padding-right: 0;
-	height: 100%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 	
 }
 #szubienica
 {
-	float: left;
-	height: 380px;
-	margin-left: 10px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
 }
 .litera
 {
