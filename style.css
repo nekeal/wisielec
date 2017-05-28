@@ -1,0 +1,86 @@
+body
+{
+	background-color: #323232;
+	color: #efefef;
+	font-size: 30px;
+	font-family: 'VT323', monospace;
+
+}
+#haslo
+{	font-size: 50px;
+	text-align: center;
+	margin-top: 50px;
+}
+img
+{
+	height: 100%;
+	width: auto;
+}
+#container
+{
+	margin-top: 100px;
+	height: 400px;
+}
+#litery
+{
+	float: left;
+	margin-left: 100px;
+	margin-right: 0;
+	padding-right: 0;
+	height: 100%;
+	
+}
+#szubienica
+{
+	float: left;
+	height: 380px;
+	margin-left: 10px;
+}
+.litera
+{
+	float: left;
+	height: 60px;
+	width: 60px;
+	border: 1px solid white;  
+	border-radius: 10px ;
+	padding: 5px;
+	margin: 8px;
+	text-align: center;
+	line-height: 60px;
+	background-color: #212121;
+}
+.litera:hover
+{
+	background-color: #434343;
+	cursor: pointer;
+}
+.clicked-good
+{
+	float: left;
+	height: 60px;
+	width: 60px;
+	border: 3px solid #11a711;
+	border-radius: 10px ;
+	padding: 5px;
+	margin: 8px;
+	text-align: center;
+	line-height: 60px;
+	background-color: #255315;
+}
+.clicked-wrong
+{
+	float: left;
+	height: 60px;
+	width: 60px;
+	border: 3px solid #ff2424;
+	border-radius: 10px ;
+	padding: 5px;
+	margin: 8px;
+	text-align: center;
+	line-height: 60px;
+	background-color: #d00606;
+}
+#haslo
+{
+	font-size: 50px;
+}
